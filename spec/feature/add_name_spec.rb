@@ -8,6 +8,6 @@ feature 'Enter name' do
     visit ('/')
     fill_in :name, with: "Kendrick"
     click_button 'Submit'
-    expect(page).to have_content "Welcome, Anish!"
+    expect(page).to have_content "Welcome, Kendrick!"
   end
 end
